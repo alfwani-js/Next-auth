@@ -8,10 +8,10 @@ const Nav = () => {
             <div>My site</div>
             <div className="flex gap-10">
                 <Link href="/">Home</Link>
-                <Link href="/CreateUser">Create user</Link>
+                <Link href="/createuser">Create user</Link>
                 <Link href="/ClientMember">Client Member</Link>
-                <Link href="/Member">Memeber</Link>
-                <Link href="/Public">Public</Link>
+                <Link href="/member">member</Link>
+                <Link href="/public">Public</Link>
             </div>
 
         </nav>
