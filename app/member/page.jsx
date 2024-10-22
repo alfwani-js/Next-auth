@@ -14,7 +14,7 @@ const Member= async() => {
     <p>
       {session?.user?.email}
     </p>
-    <p>{session?.user?.email}</p>
+    <p>{session?.user?.role}</p>
       
     </div>
   )
