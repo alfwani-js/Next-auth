@@ -1,6 +1,6 @@
 import mongoose, { Schema } from 'mongoose';
-
-mongoose.connect(process.env.MONGO_URI)
+import client from '../api/db';
+mongoose.connect(process.env.MONGODB_URI)
 mongoose.Promise = global.Promise;
 
 const UserSchema = new Schema({
