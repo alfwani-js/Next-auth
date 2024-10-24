@@ -1,0 +1,59 @@
+/* General Styles */
+
+  
+  /* Counter Container */
+  .counter-container {
+    text-align: center;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Display the Counter Value */
+  .counter-display {
+    font-size: 72px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  /* Button Container */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Counter Buttons */
+  .counter-button {
+    background-color: #3498db; /* Default button color */
+    border: none;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 32px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .increment {
+    background-color: #3498db; /* Blue color for increment */
+  }
+  
+  .decrement {
+    background-color: #e74c3c; /* Red color for decrement */
+  }
+  
+  /* Hover Effect */
+  .counter-button:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Active Button Effect */
+  .counter-button:active {
+    transform: scale(0.95);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
